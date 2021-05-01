@@ -64,6 +64,9 @@ void Typing::addEventHandler(sf::RenderWindow &window, sf::Event event) {
     }
 
 
+
+
+
 }
 
 
