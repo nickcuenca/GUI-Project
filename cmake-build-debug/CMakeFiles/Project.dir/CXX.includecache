@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/C++/CS8 PCC/Project 1/Project/DropdownMenu.cpp
+DropdownMenu.h
+E:/C++/CS8 PCC/Project 1/Project/DropdownMenu.h
+
+E:/C++/CS8 PCC/Project 1/Project/DropdownMenu.h
+
+E:/C++/CS8 PCC/Project 1/Project/InputBox.cpp
+InputBox.h
+E:/C++/CS8 PCC/Project 1/Project/InputBox.h
+
+E:/C++/CS8 PCC/Project 1/Project/InputBox.h
+
+E:/C++/CS8 PCC/Project 1/Project/Item.cpp
+Item.h
+E:/C++/CS8 PCC/Project 1/Project/Item.h
+
+E:/C++/CS8 PCC/Project 1/Project/Item.h
+
+E:/C++/CS8 PCC/Project 1/Project/ItemList.cpp
+ItemList.h
+E:/C++/CS8 PCC/Project 1/Project/ItemList.h
+
+E:/C++/CS8 PCC/Project 1/Project/ItemList.h
+
