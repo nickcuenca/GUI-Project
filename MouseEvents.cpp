@@ -10,16 +10,23 @@
 // returns true if the mouse clicks on the object
 template<class T>
 bool MouseEvents<T>::mouseClicked(T &object, sf::RenderWindow &window) {
-    sf::Vector2i position = sf::Mouse::getPosition();
-
-    std::cout << "1: "  << position.y <<" " << object.getY()  << " " << object.getLength() << std::endl;
-    std::cout << "3: " << ( object.getY() + object.getLength() >= position.y) << std::endl;
-
-    if(object.getX() <= position.x && object.getX() + object.getWidth() >= position.x  && object.getY() <= position.y
-    && object.getY() + 300 >= position.y){
-        return true;
-    }
+        if(sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
+            sf::Vector2i position = sf::Mouse::getPosition(window);
+            if (object.getX() <= position.x && object.getX() + object.getWidth() >= position.x &&
+                object.getY() <= position.y && object.getY() + object.getLength() >= position.y) {
+                return true;
+            }
+        }
     return false;
+}
+template<class T>
+bool MouseEvents<T>::mouseHovered(T &object, sf::RenderWindow &window) {
+        sf::Vector2i position = sf::Mouse::getPosition(window);
+        if (object.getX() <= position.x && object.getX() + object.getWidth() >= position.x &&
+            object.getY() <= position.y && object.getY() + object.getLength() >= position.y) {
+            return true;
+        }
+        return false;
 }
 
 template<class T>

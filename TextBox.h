@@ -12,13 +12,15 @@ private:
     sf::RectangleShape rectangle;
     int x, y, width, length;
 public:
-    TextBox(int x, int y, int width, int length);
+    TextBox(int x, int y, int length, int width);
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const; //This function is to draw your text
     int getX();
     int getY();
     int getWidth();
     int getLength();
 
+    void highlightBlue();
+    void reset();
     void setLength(int length);
 };
 

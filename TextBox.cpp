@@ -41,3 +41,11 @@ int TextBox::getY() {
 void TextBox::setLength(int length) {
     this->length = length;
 }
+
+void TextBox::highlightBlue() {
+    this->rectangle.setFillColor(sf::Color::Blue);
+}
+
+void TextBox::reset() {
+    this->rectangle.setFillColor(sf::Color::White);
+}

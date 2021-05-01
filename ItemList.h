@@ -6,14 +6,19 @@
 #define PROJECT_ITEMLIST_H
 #include <vector>
 #include <string>
-
+#include "Item.h"
 //This is a list of Items. The items should be vertically aligned.
-class ItemList {
+class ItemList : public sf::Drawable {
 private:
-    std::vector<std::string> listOfItems = {"BANANAS", "APPLES", "SANDWICH", "SLIM JIM", "DAVE'S JAR OF TEARS"};
+    std::vector<Item*> listOfItems;
+    int x, y, length, width;
 
 public:
+    virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
+    ItemList(int x, int y, int i, int i1);
+    void pushToList(std::string word);
 
+    vector<Item *> getItems();
 };
 
 

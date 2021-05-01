@@ -39,12 +39,10 @@ void Typing::addEventHandler(sf::RenderWindow &window, sf::Event event) {
     }
 
     else if(event.text.unicode == 0x000008 && characterContainer.size() != 0){
-         cout<<characterContainer.size() << endl;
            characterContainer.pop_back();
            cursor->moveLeft();
            Snapshot *curr = new Snapshot(characterContainer, cursor->getX(), cursor->getY());
            history->push(curr);
-           cout<<characterContainer.size() << endl;
            _sleep(100);
     }
     else if (event.type == sf::Event::TextEntered && event.text.unicode != 0x000008 && cursor->getX() < limit ) {
@@ -74,7 +72,6 @@ void Typing::addEventHandler(sf::RenderWindow &window, sf::Event event) {
 
 void Typing::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     window.draw(*textBox1);
-    cout << textBox1->getLength() << endl;
     for (int i = 0; i < characterContainer.size(); i++) {
         window.draw(*characterContainer[i]);
     }
@@ -84,9 +81,6 @@ void Typing::draw(sf::RenderTarget &window, sf::RenderStates states) const {
         }
         states1->disableState(static_cast<ObjectStates>(1));
     }
-
-
-
 }
 
 States *Typing::getStates() {
