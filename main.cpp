@@ -8,7 +8,7 @@ int main() {
     int count = 0;
     sf::RenderWindow  window({1920, 1080, 32},"TYPE IT NOW!");
     TextInput textInput(100, 100, 100, 1500);
-    InputBox *inputBox = new InputBox(10, 10, 100, 300, "MIlK");
+    InputBox *inputBox = new InputBox(10, 550, 100, 300, "MIlK");
     std::vector<std::string> names = {"BANANA", "COOKIES", "OREOS", "EGGS"};
     DropdownMenu dropdownMenu(inputBox, names);
     window.setKeyRepeatEnabled(false);

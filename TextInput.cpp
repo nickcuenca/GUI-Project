@@ -47,6 +47,6 @@ void TextInput::update() {
 //    return reinterpret_cast<Snapshot &>(snap);
 //}
 void TextInput::applySnapshot(const Snapshot& snapshot){
-    cout << "HI" << endl;
+//    cout << "HI" << endl;
 }
 
