@@ -342,6 +342,62 @@ CMakeFiles/Project.dir/DropdownMenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/DropdownMenu.cpp.s"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\DropdownMenu.cpp" -o CMakeFiles\Project.dir\DropdownMenu.cpp.s
 
+CMakeFiles/Project.dir/MenuSnapshot.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/MenuSnapshot.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/MenuSnapshot.cpp.obj: ../MenuSnapshot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Project.dir/MenuSnapshot.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\MenuSnapshot.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\MenuSnapshot.cpp"
+
+CMakeFiles/Project.dir/MenuSnapshot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/MenuSnapshot.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\MenuSnapshot.cpp" > CMakeFiles\Project.dir\MenuSnapshot.cpp.i
+
+CMakeFiles/Project.dir/MenuSnapshot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/MenuSnapshot.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\MenuSnapshot.cpp" -o CMakeFiles\Project.dir\MenuSnapshot.cpp.s
+
+CMakeFiles/Project.dir/Menu.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Menu.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/Menu.cpp.obj: ../Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project.dir/Menu.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\Menu.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\Menu.cpp"
+
+CMakeFiles/Project.dir/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Menu.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\Menu.cpp" > CMakeFiles\Project.dir\Menu.cpp.i
+
+CMakeFiles/Project.dir/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Menu.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\Menu.cpp" -o CMakeFiles\Project.dir\Menu.cpp.s
+
+CMakeFiles/Project.dir/MenuBar.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/MenuBar.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/MenuBar.cpp.obj: ../MenuBar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Project.dir/MenuBar.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\MenuBar.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\MenuBar.cpp"
+
+CMakeFiles/Project.dir/MenuBar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/MenuBar.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\MenuBar.cpp" > CMakeFiles\Project.dir\MenuBar.cpp.i
+
+CMakeFiles/Project.dir/MenuBar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/MenuBar.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\MenuBar.cpp" -o CMakeFiles\Project.dir\MenuBar.cpp.s
+
+CMakeFiles/Project.dir/MenuHistory.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/MenuHistory.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/MenuHistory.cpp.obj: ../MenuHistory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Project.dir/MenuHistory.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\MenuHistory.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\MenuHistory.cpp"
+
+CMakeFiles/Project.dir/MenuHistory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/MenuHistory.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\MenuHistory.cpp" > CMakeFiles\Project.dir\MenuHistory.cpp.i
+
+CMakeFiles/Project.dir/MenuHistory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/MenuHistory.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\MenuHistory.cpp" -o CMakeFiles\Project.dir\MenuHistory.cpp.s
+
 # Object files for target Project
 Project_OBJECTS = \
 "CMakeFiles/Project.dir/main.cpp.obj" \
@@ -362,7 +418,11 @@ Project_OBJECTS = \
 "CMakeFiles/Project.dir/Item.cpp.obj" \
 "CMakeFiles/Project.dir/ItemList.cpp.obj" \
 "CMakeFiles/Project.dir/InputBox.cpp.obj" \
-"CMakeFiles/Project.dir/DropdownMenu.cpp.obj"
+"CMakeFiles/Project.dir/DropdownMenu.cpp.obj" \
+"CMakeFiles/Project.dir/MenuSnapshot.cpp.obj" \
+"CMakeFiles/Project.dir/Menu.cpp.obj" \
+"CMakeFiles/Project.dir/MenuBar.cpp.obj" \
+"CMakeFiles/Project.dir/MenuHistory.cpp.obj"
 
 # External object files for target Project
 Project_EXTERNAL_OBJECTS =
@@ -386,6 +446,10 @@ Project.exe: CMakeFiles/Project.dir/Item.cpp.obj
 Project.exe: CMakeFiles/Project.dir/ItemList.cpp.obj
 Project.exe: CMakeFiles/Project.dir/InputBox.cpp.obj
 Project.exe: CMakeFiles/Project.dir/DropdownMenu.cpp.obj
+Project.exe: CMakeFiles/Project.dir/MenuSnapshot.cpp.obj
+Project.exe: CMakeFiles/Project.dir/Menu.cpp.obj
+Project.exe: CMakeFiles/Project.dir/MenuBar.cpp.obj
+Project.exe: CMakeFiles/Project.dir/MenuHistory.cpp.obj
 Project.exe: CMakeFiles/Project.dir/build.make
 Project.exe: C:/SFML-2.5.1/lib/libsfml-audio-s-d.a
 Project.exe: C:/SFML-2.5.1/lib/libsfml-graphics-s-d.a
@@ -407,7 +471,7 @@ Project.exe: C:/SFML-2.5.1/lib/libogg.a
 Project.exe: CMakeFiles/Project.dir/linklibs.rsp
 Project.exe: CMakeFiles/Project.dir/objects1.rsp
 Project.exe: CMakeFiles/Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

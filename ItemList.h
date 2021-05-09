@@ -10,14 +10,14 @@
 //This is a list of Items. The items should be vertically aligned.
 class ItemList : public sf::Drawable {
 private:
-    std::vector<Item*> listOfItems;
+    std::vector<Item*>  listOfItems;
     int x, y, length, width;
 
 public:
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
     ItemList(int x, int y, int i, int i1);
     void pushToList(std::string word);
-
+    ItemList(const ItemList &lst);
     vector<Item *> getItems();
 };
 

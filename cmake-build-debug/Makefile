@@ -439,6 +439,114 @@ LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/LinkedList.cpp.s
 .PHONY : LinkedList.cpp.s
 
+Menu.obj: Menu.cpp.obj
+
+.PHONY : Menu.obj
+
+# target to build an object file
+Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Menu.cpp.obj
+.PHONY : Menu.cpp.obj
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
+MenuBar.obj: MenuBar.cpp.obj
+
+.PHONY : MenuBar.obj
+
+# target to build an object file
+MenuBar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MenuBar.cpp.obj
+.PHONY : MenuBar.cpp.obj
+
+MenuBar.i: MenuBar.cpp.i
+
+.PHONY : MenuBar.i
+
+# target to preprocess a source file
+MenuBar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MenuBar.cpp.i
+.PHONY : MenuBar.cpp.i
+
+MenuBar.s: MenuBar.cpp.s
+
+.PHONY : MenuBar.s
+
+# target to generate assembly for a file
+MenuBar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MenuBar.cpp.s
+.PHONY : MenuBar.cpp.s
+
+MenuHistory.obj: MenuHistory.cpp.obj
+
+.PHONY : MenuHistory.obj
+
+# target to build an object file
+MenuHistory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MenuHistory.cpp.obj
+.PHONY : MenuHistory.cpp.obj
+
+MenuHistory.i: MenuHistory.cpp.i
+
+.PHONY : MenuHistory.i
+
+# target to preprocess a source file
+MenuHistory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MenuHistory.cpp.i
+.PHONY : MenuHistory.cpp.i
+
+MenuHistory.s: MenuHistory.cpp.s
+
+.PHONY : MenuHistory.s
+
+# target to generate assembly for a file
+MenuHistory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MenuHistory.cpp.s
+.PHONY : MenuHistory.cpp.s
+
+MenuSnapshot.obj: MenuSnapshot.cpp.obj
+
+.PHONY : MenuSnapshot.obj
+
+# target to build an object file
+MenuSnapshot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MenuSnapshot.cpp.obj
+.PHONY : MenuSnapshot.cpp.obj
+
+MenuSnapshot.i: MenuSnapshot.cpp.i
+
+.PHONY : MenuSnapshot.i
+
+# target to preprocess a source file
+MenuSnapshot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MenuSnapshot.cpp.i
+.PHONY : MenuSnapshot.cpp.i
+
+MenuSnapshot.s: MenuSnapshot.cpp.s
+
+.PHONY : MenuSnapshot.s
+
+# target to generate assembly for a file
+MenuSnapshot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MenuSnapshot.cpp.s
+.PHONY : MenuSnapshot.cpp.s
+
 MouseEvents.obj: MouseEvents.cpp.obj
 
 .PHONY : MouseEvents.obj
@@ -697,6 +805,18 @@ help:
 	@echo ... LinkedList.obj
 	@echo ... LinkedList.i
 	@echo ... LinkedList.s
+	@echo ... Menu.obj
+	@echo ... Menu.i
+	@echo ... Menu.s
+	@echo ... MenuBar.obj
+	@echo ... MenuBar.i
+	@echo ... MenuBar.s
+	@echo ... MenuHistory.obj
+	@echo ... MenuHistory.i
+	@echo ... MenuHistory.s
+	@echo ... MenuSnapshot.obj
+	@echo ... MenuSnapshot.i
+	@echo ... MenuSnapshot.s
 	@echo ... MouseEvents.obj
 	@echo ... MouseEvents.i
 	@echo ... MouseEvents.s

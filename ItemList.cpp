@@ -8,8 +8,18 @@ ItemList::ItemList(int x, int y, int length, int width) {
     this->y = y;
     this->length = length;
     this->width = width;
-
 }
+
+ItemList::ItemList(const ItemList &lst){
+    this->x = lst.x;
+    this-> y = lst.y;
+    this->length = lst.length;
+    this->width = lst.width;
+    for(int i = 0; i < lst.listOfItems.size(); i++){
+        pushToList(lst.listOfItems[i]->getString());
+    }
+}
+
 void ItemList::pushToList(std::string word) {
     listOfItems.push_back(new Item(x, y + length * (listOfItems.size() + 1), length, width, word));
 

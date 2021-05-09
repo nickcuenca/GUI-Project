@@ -153,6 +153,30 @@
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/LinkedList.h">
 			<Option target="Project"/>
 		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Menu.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Menu.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MenuBar.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MenuBar.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MenuHistory.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MenuHistory.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MenuSnapshot.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MenuSnapshot.h">
+			<Option target="Project"/>
+		</Unit>
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MouseEvents.cpp">
 			<Option target="Project"/>
 		</Unit>

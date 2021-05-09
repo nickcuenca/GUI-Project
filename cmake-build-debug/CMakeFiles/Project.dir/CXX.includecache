@@ -676,22 +676,6 @@ SFML/Config.hpp
 
 C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
 
-E:/C++/CS8 PCC/Project 1/Project/Cursor.h
-SFML/Graphics.hpp
-E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
-
-E:/C++/CS8 PCC/Project 1/Project/DropdownMenu.h
-GUI_components.h
-E:/C++/CS8 PCC/Project 1/Project/GUI_components.h
-Item.h
-E:/C++/CS8 PCC/Project 1/Project/Item.h
-ItemList.h
-E:/C++/CS8 PCC/Project 1/Project/ItemList.h
-InputBox.h
-E:/C++/CS8 PCC/Project 1/Project/InputBox.h
-MouseEvents.h
-E:/C++/CS8 PCC/Project 1/Project/MouseEvents.h
-
 E:/C++/CS8 PCC/Project 1/Project/EventHandler.h
 SFML/Graphics.hpp
 -
@@ -704,12 +688,6 @@ E:/C++/CS8 PCC/Project 1/Project/EventHandler.h
 Snapshot.h
 E:/C++/CS8 PCC/Project 1/Project/Snapshot.h
 
-E:/C++/CS8 PCC/Project 1/Project/History.h
-Snapshot.h
-E:/C++/CS8 PCC/Project 1/Project/Snapshot.h
-Stack.h
-E:/C++/CS8 PCC/Project 1/Project/Stack.h
-
 E:/C++/CS8 PCC/Project 1/Project/InputBox.h
 TextBox.h
 E:/C++/CS8 PCC/Project 1/Project/TextBox.h
@@ -717,6 +695,10 @@ E:/C++/CS8 PCC/Project 1/Project/TextBox.h
 E:/C++/CS8 PCC/Project 1/Project/Item.h
 InputBox.h
 E:/C++/CS8 PCC/Project 1/Project/InputBox.h
+
+E:/C++/CS8 PCC/Project 1/Project/ItemList.cpp
+ItemList.h
+E:/C++/CS8 PCC/Project 1/Project/ItemList.h
 
 E:/C++/CS8 PCC/Project 1/Project/ItemList.h
 vector
@@ -726,51 +708,9 @@ string
 Item.h
 E:/C++/CS8 PCC/Project 1/Project/Item.h
 
-E:/C++/CS8 PCC/Project 1/Project/Label.cpp
-Label.h
-E:/C++/CS8 PCC/Project 1/Project/Label.h
-
-E:/C++/CS8 PCC/Project 1/Project/Label.h
-SFML/Graphics.hpp
-E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
-
 E:/C++/CS8 PCC/Project 1/Project/Letter.h
 SFML/Graphics.hpp
 E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
-
-E:/C++/CS8 PCC/Project 1/Project/LinkedList.cpp
-iostream
--
-LinkedList.h
-E:/C++/CS8 PCC/Project 1/Project/LinkedList.h
-LinkedList.cpp
-E:/C++/CS8 PCC/Project 1/Project/LinkedList.cpp
-
-E:/C++/CS8 PCC/Project 1/Project/LinkedList.h
-Node.h
-E:/C++/CS8 PCC/Project 1/Project/Node.h
-ostream
--
-LinkedList.cpp
-E:/C++/CS8 PCC/Project 1/Project/LinkedList.cpp
-
-E:/C++/CS8 PCC/Project 1/Project/MouseEvents.cpp
-iostream
--
-MouseEvents.h
-E:/C++/CS8 PCC/Project 1/Project/MouseEvents.h
-SFML/Graphics.hpp
-E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
-MouseEvents.cpp
-E:/C++/CS8 PCC/Project 1/Project/MouseEvents.cpp
-
-E:/C++/CS8 PCC/Project 1/Project/MouseEvents.h
-SFML/Graphics.hpp
-E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
-MouseEvents.cpp
-E:/C++/CS8 PCC/Project 1/Project/MouseEvents.cpp
-
-E:/C++/CS8 PCC/Project 1/Project/Node.h
 
 E:/C++/CS8 PCC/Project 1/Project/Snapshot.h
 string
@@ -778,67 +718,9 @@ string
 Letter.h
 E:/C++/CS8 PCC/Project 1/Project/Letter.h
 
-E:/C++/CS8 PCC/Project 1/Project/Stack.cpp
-Stack.h
-E:/C++/CS8 PCC/Project 1/Project/Stack.h
-Stack.cpp
-E:/C++/CS8 PCC/Project 1/Project/Stack.cpp
-
-E:/C++/CS8 PCC/Project 1/Project/Stack.h
-LinkedList.h
-E:/C++/CS8 PCC/Project 1/Project/LinkedList.h
-Stack.cpp
-E:/C++/CS8 PCC/Project 1/Project/Stack.cpp
-
-E:/C++/CS8 PCC/Project 1/Project/States.h
-map
--
-
 E:/C++/CS8 PCC/Project 1/Project/TextBox.h
 SFML/Graphics.hpp
 E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
 GUI_components.h
 E:/C++/CS8 PCC/Project 1/Project/GUI_components.h
-
-E:/C++/CS8 PCC/Project 1/Project/TextInput.h
-Cursor.h
-E:/C++/CS8 PCC/Project 1/Project/Cursor.h
-Label.h
-E:/C++/CS8 PCC/Project 1/Project/Label.h
-TextBox.h
-E:/C++/CS8 PCC/Project 1/Project/TextBox.h
-Letter.h
-E:/C++/CS8 PCC/Project 1/Project/Letter.h
-Typing.h
-E:/C++/CS8 PCC/Project 1/Project/Typing.h
-MouseEvents.h
-E:/C++/CS8 PCC/Project 1/Project/MouseEvents.h
-States.h
-E:/C++/CS8 PCC/Project 1/Project/States.h
-
-E:/C++/CS8 PCC/Project 1/Project/Typing.h
-SFML/Graphics.hpp
--
-Letter.h
-E:/C++/CS8 PCC/Project 1/Project/Letter.h
-Cursor.h
-E:/C++/CS8 PCC/Project 1/Project/Cursor.h
-History.h
-E:/C++/CS8 PCC/Project 1/Project/History.h
-States.h
-E:/C++/CS8 PCC/Project 1/Project/States.h
-TextBox.h
-E:/C++/CS8 PCC/Project 1/Project/TextBox.h
-
-E:/C++/CS8 PCC/Project 1/Project/main.cpp
-iostream
--
-SFML/Graphics.hpp
--
-TextInput.h
-E:/C++/CS8 PCC/Project 1/Project/TextInput.h
-InputBox.h
-E:/C++/CS8 PCC/Project 1/Project/InputBox.h
-DropdownMenu.h
-E:/C++/CS8 PCC/Project 1/Project/DropdownMenu.h
 

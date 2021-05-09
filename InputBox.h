@@ -15,10 +15,11 @@ private:
 public:
 
     InputBox(int x, int y, int length, int width, std::string input);
+    InputBox(const InputBox & box);
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const; //This function is to draw your text
 
     void setString(string input);
-    std::string getString();
+    std::string getString() const;
 };
 
 

@@ -22,19 +22,19 @@ void TextBox::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     window.draw(rectangle);
 }
 
-int TextBox::getX() {
+int TextBox::getX() const {
     return x;
 }
 
-int TextBox::getLength() {
+int TextBox::getLength() const{
     return length;
 }
 
-int TextBox::getWidth() {
+int TextBox::getWidth() const {
     return width;
 }
 
-int TextBox::getY() {
+int TextBox::getY() const {
     return y;
 }
 

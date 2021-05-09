@@ -9,6 +9,7 @@
 #include "ItemList.h"
 #include "InputBox.h"
 #include "MouseEvents.h"
+#include "MenuHistory.h"
 
 
 
@@ -20,7 +21,7 @@ private:
 
     ItemList *itemList;
     bool dropdownVisible;
-
+    MenuHistory* menuHistory_;
 public:
     DropdownMenu(InputBox *inputBox, std::vector<std::string> names);
 
