@@ -5,28 +5,40 @@
 #include "InputBox.h"
 #include "DropdownMenu.h"
 #include "Menu.h"
+#include "FileTree.h"
+
 int main() {
     int count = 0;
     sf::RenderWindow  window({1920, 1080, 32},"TYPE IT NOW!");
     TextInput textInput(100, 100, 100, 1500);
-    InputBox *inputBox = new InputBox(10, 550, 100, 300, "MIlK");
-    InputBox *inputBox2 = new InputBox(310, 550, 100, 300, "EAGLE");
-    InputBox *inputBox3 = new InputBox(610, 550, 100, 300, "SHAZAM");
+//    InputBox *inputBox = new InputBox(10, 550, 100, 300, "MIlK");
+//    InputBox *inputBox2 = new InputBox(310, 550, 100, 300, "EAGLE");
+//    InputBox *inputBox3 = new InputBox(610, 550, 100, 300, "SHAZAM");
+//
+//    std::vector<std::string> names = {"BANANA", "COOKIES", "OREOS", "EGGS"};
+//    std::vector<std::string> names2 = {"MONKEY", "ELEPHANT", "LION", "BAT"};
+//    std::vector<std::string> names3 = {"SUPERMAN", "BATMAN", "CYBORG", "FLASH"};
+//
+//
+//
+//    std::vector<std::vector<std::string>> allItems;
+//    std::vector<std::string> inputboxNames = {"MILK", "EAGLE", "SHAZAM"};
+//    allItems.push_back(names);
+//    allItems.push_back(names2);
+//    allItems.push_back(names3);
+//
+//
+//    Menu menu1(allItems, 10, 350, 130, 300, inputboxNames);
 
-    std::vector<std::string> names = {"BANANA", "COOKIES", "OREOS", "EGGS"};
-    std::vector<std::string> names2 = {"MONKEY", "ELEPHANT", "LION", "BAT"};
-    std::vector<std::string> names3 = {"SUPERMAN", "BATMAN", "CYBORG", "FLASH"};
 
 
-    std::vector<std::vector<std::string>> allItems;
-    std::vector<std::string> inputboxNames = {"MILK", "EAGLE", "SHAZAM"};
-    allItems.push_back(names);
-    allItems.push_back(names2);
-    allItems.push_back(names3);
-
-
-    Menu menu1(allItems, 10, 350, 130, 300, inputboxNames);
-
+    FileNode *fileNode  = new FileNode("Directory 1", 10, 50, 130, 500);
+    fileNode->addChild("File 1");
+    fileNode->addChild("File 2");
+    fileNode->addChild("Directory 2");
+    FileTree *fileTree = new FileTree(fileNode);
+    fileTree->push("Directory 2", "File 3");
+    fileTree->push("Directory 2", "File 4");
 
     window.setKeyRepeatEnabled(false);
     bool blink = true;
@@ -38,13 +50,15 @@ int main() {
             textInput.getTyping()->addEventHandler(window, event);
             textInput.addEventHandler(window, event);
             textInput.getTyping()->setBlink();
-            menu1.getMenuBar()->addEventHandler(window, event);
+//            menu1.getMenuBar()->addEventHandler(window, event);
+            fileTree->addEventHandler(window, event);
         }
 
 
         window.clear();
-        window.draw(textInput);
-        window.draw(*menu1.getMenuBar());
+//        window.draw(textInput);
+        window.draw(*fileTree);
+//        window.draw(*menu1.getMenuBar());
         window.display();
     }
 

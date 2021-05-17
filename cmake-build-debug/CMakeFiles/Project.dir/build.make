@@ -398,6 +398,62 @@ CMakeFiles/Project.dir/MenuHistory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/MenuHistory.cpp.s"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\MenuHistory.cpp" -o CMakeFiles\Project.dir\MenuHistory.cpp.s
 
+CMakeFiles/Project.dir/FileTree.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/FileTree.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/FileTree.cpp.obj: ../FileTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Project.dir/FileTree.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\FileTree.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\FileTree.cpp"
+
+CMakeFiles/Project.dir/FileTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/FileTree.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\FileTree.cpp" > CMakeFiles\Project.dir\FileTree.cpp.i
+
+CMakeFiles/Project.dir/FileTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/FileTree.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\FileTree.cpp" -o CMakeFiles\Project.dir\FileTree.cpp.s
+
+CMakeFiles/Project.dir/FileNode.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/FileNode.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/FileNode.cpp.obj: ../FileNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project.dir/FileNode.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\FileNode.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\FileNode.cpp"
+
+CMakeFiles/Project.dir/FileNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/FileNode.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\FileNode.cpp" > CMakeFiles\Project.dir\FileNode.cpp.i
+
+CMakeFiles/Project.dir/FileNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/FileNode.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\FileNode.cpp" -o CMakeFiles\Project.dir\FileNode.cpp.s
+
+CMakeFiles/Project.dir/FileItem.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/FileItem.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/FileItem.cpp.obj: ../FileItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Project.dir/FileItem.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\FileItem.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\FileItem.cpp"
+
+CMakeFiles/Project.dir/FileItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/FileItem.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\FileItem.cpp" > CMakeFiles\Project.dir\FileItem.cpp.i
+
+CMakeFiles/Project.dir/FileItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/FileItem.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\FileItem.cpp" -o CMakeFiles\Project.dir\FileItem.cpp.s
+
+CMakeFiles/Project.dir/Image.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Image.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/Image.cpp.obj: ../Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Project.dir/Image.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\Image.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\Image.cpp"
+
+CMakeFiles/Project.dir/Image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Image.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\Image.cpp" > CMakeFiles\Project.dir\Image.cpp.i
+
+CMakeFiles/Project.dir/Image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Image.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\Image.cpp" -o CMakeFiles\Project.dir\Image.cpp.s
+
 # Object files for target Project
 Project_OBJECTS = \
 "CMakeFiles/Project.dir/main.cpp.obj" \
@@ -422,7 +478,11 @@ Project_OBJECTS = \
 "CMakeFiles/Project.dir/MenuSnapshot.cpp.obj" \
 "CMakeFiles/Project.dir/Menu.cpp.obj" \
 "CMakeFiles/Project.dir/MenuBar.cpp.obj" \
-"CMakeFiles/Project.dir/MenuHistory.cpp.obj"
+"CMakeFiles/Project.dir/MenuHistory.cpp.obj" \
+"CMakeFiles/Project.dir/FileTree.cpp.obj" \
+"CMakeFiles/Project.dir/FileNode.cpp.obj" \
+"CMakeFiles/Project.dir/FileItem.cpp.obj" \
+"CMakeFiles/Project.dir/Image.cpp.obj"
 
 # External object files for target Project
 Project_EXTERNAL_OBJECTS =
@@ -450,6 +510,10 @@ Project.exe: CMakeFiles/Project.dir/MenuSnapshot.cpp.obj
 Project.exe: CMakeFiles/Project.dir/Menu.cpp.obj
 Project.exe: CMakeFiles/Project.dir/MenuBar.cpp.obj
 Project.exe: CMakeFiles/Project.dir/MenuHistory.cpp.obj
+Project.exe: CMakeFiles/Project.dir/FileTree.cpp.obj
+Project.exe: CMakeFiles/Project.dir/FileNode.cpp.obj
+Project.exe: CMakeFiles/Project.dir/FileItem.cpp.obj
+Project.exe: CMakeFiles/Project.dir/Image.cpp.obj
 Project.exe: CMakeFiles/Project.dir/build.make
 Project.exe: C:/SFML-2.5.1/lib/libsfml-audio-s-d.a
 Project.exe: C:/SFML-2.5.1/lib/libsfml-graphics-s-d.a
@@ -471,7 +535,7 @@ Project.exe: C:/SFML-2.5.1/lib/libogg.a
 Project.exe: CMakeFiles/Project.dir/linklibs.rsp
 Project.exe: CMakeFiles/Project.dir/objects1.rsp
 Project.exe: CMakeFiles/Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

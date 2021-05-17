@@ -22,8 +22,9 @@ private:
     ItemList *itemList;
     bool dropdownVisible;
     MenuHistory* menuHistory_;
+    bool file_menu;
 public:
-    DropdownMenu(InputBox *inputBox, std::vector<std::string> names);
+    DropdownMenu(InputBox *inputBox, std::vector<std::string> names, bool file_menu = false);
 
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
     virtual void addEventHandler(sf::RenderWindow& window, sf::Event event);

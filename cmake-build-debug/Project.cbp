@@ -99,6 +99,24 @@
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/EventHandler.h">
 			<Option target="Project"/>
 		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/FileItem.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/FileItem.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/FileNode.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/FileNode.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/FileTree.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/FileTree.h">
+			<Option target="Project"/>
+		</Unit>
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/GUI_components.cpp">
 			<Option target="Project"/>
 		</Unit>
@@ -109,6 +127,12 @@
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/History.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Image.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Image.h">
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/InputBox.cpp">

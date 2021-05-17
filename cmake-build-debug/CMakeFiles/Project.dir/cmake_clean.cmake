@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Project.dir/Cursor.cpp.obj"
   "CMakeFiles/Project.dir/DropdownMenu.cpp.obj"
+  "CMakeFiles/Project.dir/FileItem.cpp.obj"
+  "CMakeFiles/Project.dir/FileNode.cpp.obj"
+  "CMakeFiles/Project.dir/FileTree.cpp.obj"
   "CMakeFiles/Project.dir/GUI_components.cpp.obj"
   "CMakeFiles/Project.dir/History.cpp.obj"
+  "CMakeFiles/Project.dir/Image.cpp.obj"
   "CMakeFiles/Project.dir/InputBox.cpp.obj"
   "CMakeFiles/Project.dir/Item.cpp.obj"
   "CMakeFiles/Project.dir/ItemList.cpp.obj"

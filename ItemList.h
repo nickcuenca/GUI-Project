@@ -16,9 +16,11 @@ private:
 public:
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
     ItemList(int x, int y, int i, int i1);
-    void pushToList(std::string word);
+    void pushToList(std::string word, bool file_menu = false);
     ItemList(const ItemList &lst);
     vector<Item *> getItems();
+
+    void clearList();
 };
 
 

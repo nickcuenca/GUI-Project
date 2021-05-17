@@ -196,6 +196,87 @@ DropdownMenu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/DropdownMenu.cpp.s
 .PHONY : DropdownMenu.cpp.s
 
+FileItem.obj: FileItem.cpp.obj
+
+.PHONY : FileItem.obj
+
+# target to build an object file
+FileItem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/FileItem.cpp.obj
+.PHONY : FileItem.cpp.obj
+
+FileItem.i: FileItem.cpp.i
+
+.PHONY : FileItem.i
+
+# target to preprocess a source file
+FileItem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/FileItem.cpp.i
+.PHONY : FileItem.cpp.i
+
+FileItem.s: FileItem.cpp.s
+
+.PHONY : FileItem.s
+
+# target to generate assembly for a file
+FileItem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/FileItem.cpp.s
+.PHONY : FileItem.cpp.s
+
+FileNode.obj: FileNode.cpp.obj
+
+.PHONY : FileNode.obj
+
+# target to build an object file
+FileNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/FileNode.cpp.obj
+.PHONY : FileNode.cpp.obj
+
+FileNode.i: FileNode.cpp.i
+
+.PHONY : FileNode.i
+
+# target to preprocess a source file
+FileNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/FileNode.cpp.i
+.PHONY : FileNode.cpp.i
+
+FileNode.s: FileNode.cpp.s
+
+.PHONY : FileNode.s
+
+# target to generate assembly for a file
+FileNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/FileNode.cpp.s
+.PHONY : FileNode.cpp.s
+
+FileTree.obj: FileTree.cpp.obj
+
+.PHONY : FileTree.obj
+
+# target to build an object file
+FileTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/FileTree.cpp.obj
+.PHONY : FileTree.cpp.obj
+
+FileTree.i: FileTree.cpp.i
+
+.PHONY : FileTree.i
+
+# target to preprocess a source file
+FileTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/FileTree.cpp.i
+.PHONY : FileTree.cpp.i
+
+FileTree.s: FileTree.cpp.s
+
+.PHONY : FileTree.s
+
+# target to generate assembly for a file
+FileTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/FileTree.cpp.s
+.PHONY : FileTree.cpp.s
+
 GUI_components.obj: GUI_components.cpp.obj
 
 .PHONY : GUI_components.obj
@@ -249,6 +330,33 @@ History.s: History.cpp.s
 History.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/History.cpp.s
 .PHONY : History.cpp.s
+
+Image.obj: Image.cpp.obj
+
+.PHONY : Image.obj
+
+# target to build an object file
+Image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Image.cpp.obj
+.PHONY : Image.cpp.obj
+
+Image.i: Image.cpp.i
+
+.PHONY : Image.i
+
+# target to preprocess a source file
+Image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Image.cpp.i
+.PHONY : Image.cpp.i
+
+Image.s: Image.cpp.s
+
+.PHONY : Image.s
+
+# target to generate assembly for a file
+Image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Image.cpp.s
+.PHONY : Image.cpp.s
 
 InputBox.obj: InputBox.cpp.obj
 
@@ -778,12 +886,24 @@ help:
 	@echo ... DropdownMenu.obj
 	@echo ... DropdownMenu.i
 	@echo ... DropdownMenu.s
+	@echo ... FileItem.obj
+	@echo ... FileItem.i
+	@echo ... FileItem.s
+	@echo ... FileNode.obj
+	@echo ... FileNode.i
+	@echo ... FileNode.s
+	@echo ... FileTree.obj
+	@echo ... FileTree.i
+	@echo ... FileTree.s
 	@echo ... GUI_components.obj
 	@echo ... GUI_components.i
 	@echo ... GUI_components.s
 	@echo ... History.obj
 	@echo ... History.i
 	@echo ... History.s
+	@echo ... Image.obj
+	@echo ... Image.i
+	@echo ... Image.s
 	@echo ... InputBox.obj
 	@echo ... InputBox.i
 	@echo ... InputBox.s

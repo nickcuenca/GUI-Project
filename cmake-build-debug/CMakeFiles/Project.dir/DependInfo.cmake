@@ -6,8 +6,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/C++/CS8 PCC/Project 1/Project/Cursor.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/Cursor.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/DropdownMenu.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/DropdownMenu.cpp.obj"
+  "E:/C++/CS8 PCC/Project 1/Project/FileItem.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/FileItem.cpp.obj"
+  "E:/C++/CS8 PCC/Project 1/Project/FileNode.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/FileNode.cpp.obj"
+  "E:/C++/CS8 PCC/Project 1/Project/FileTree.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/FileTree.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/GUI_components.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/GUI_components.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/History.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/History.cpp.obj"
+  "E:/C++/CS8 PCC/Project 1/Project/Image.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/Image.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/InputBox.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/InputBox.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/Item.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/Item.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/ItemList.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/ItemList.cpp.obj"
