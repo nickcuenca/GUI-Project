@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Background.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Background.h">
+			<Option target="Project"/>
+		</Unit>
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Cursor.cpp">
 			<Option target="Project"/>
 		</Unit>
@@ -208,6 +214,12 @@
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Node.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Slider.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Slider.h">
 			<Option target="Project"/>
 		</Unit>
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Snapshot.cpp">

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/C++/CS8 PCC/Project 1/Project/Background.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/Background.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/Cursor.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/Cursor.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/DropdownMenu.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/DropdownMenu.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/FileItem.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/FileItem.cpp.obj"
@@ -24,6 +25,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "E:/C++/CS8 PCC/Project 1/Project/MenuHistory.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/MenuHistory.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/MenuSnapshot.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/MenuSnapshot.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/MouseEvents.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/MouseEvents.cpp.obj"
+  "E:/C++/CS8 PCC/Project 1/Project/Slider.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/Slider.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/Snapshot.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/Snapshot.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/Stack.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/Stack.cpp.obj"
   "E:/C++/CS8 PCC/Project 1/Project/States.cpp" "E:/C++/CS8 PCC/Project 1/Project/cmake-build-debug/CMakeFiles/Project.dir/States.cpp.obj"

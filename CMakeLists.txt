@@ -6,7 +6,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -static")
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp EventHandler.h Snapshot.cpp Snapshot.h History.cpp History.h MouseEvents.cpp MouseEvents.h KeyboardShortcuts.cpp KeyboardShortcuts.h Cursor.cpp Cursor.h TextBox.cpp TextBox.h Typing.cpp Typing.h TextInput.cpp TextInput.h States.cpp States.h GUI_components.cpp GUI_components.h Node.h LinkedList.cpp LinkedList.h Stack.cpp Stack.h Label.cpp Label.h Letter.cpp Letter.h Item.cpp Item.h ItemList.cpp ItemList.h InputBox.cpp InputBox.h DropdownMenu.cpp DropdownMenu.h MenuSnapshot.cpp MenuSnapshot.h Menu.cpp Menu.h MenuBar.cpp MenuBar.h MenuHistory.cpp MenuHistory.h FileTree.cpp FileTree.h FileNode.cpp FileNode.h FileItem.cpp FileItem.h Image.cpp Image.h)
+set(SOURCE_FILES main.cpp EventHandler.h Snapshot.cpp Snapshot.h History.cpp History.h MouseEvents.cpp MouseEvents.h KeyboardShortcuts.cpp KeyboardShortcuts.h Cursor.cpp Cursor.h TextBox.cpp TextBox.h Typing.cpp Typing.h TextInput.cpp TextInput.h States.cpp States.h GUI_components.cpp GUI_components.h Node.h LinkedList.cpp LinkedList.h Stack.cpp Stack.h Label.cpp Label.h Letter.cpp Letter.h Item.cpp Item.h ItemList.cpp ItemList.h InputBox.cpp InputBox.h DropdownMenu.cpp DropdownMenu.h MenuSnapshot.cpp MenuSnapshot.h Menu.cpp Menu.h MenuBar.cpp MenuBar.h MenuHistory.cpp MenuHistory.h FileTree.cpp FileTree.h FileNode.cpp FileNode.h FileItem.cpp FileItem.h Image.cpp Image.h Background.cpp Background.h Slider.cpp Slider.h)
 
 if (CMAKE_BUILD_TYPE STREQUAL "Release")
     add_executable(${PROJECT_NAME} WIN32 ${SOURCE_FILES})

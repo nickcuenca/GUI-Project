@@ -3,7 +3,6 @@
 //
 
 #include "Label.h"
-
 Label::Label() {
     font.loadFromFile("OpenSans-Bold.ttf");
     text.setFont(font);

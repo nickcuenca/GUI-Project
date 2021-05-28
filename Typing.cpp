@@ -8,7 +8,7 @@
 
 Typing::Typing(Cursor *cursor, int limit, TextBox *textBox1) {
     myFont.loadFromFile("OpenSans-Bold.ttf");
-    if (!myFont.loadFromFile("OpenSans-Bold.ttf")) {
+    if (!myFont.loadFromFile( "OpenSans-Bold.ttf")) {
         std::cout << "Could not load font." << std::endl;
         return;
     }
@@ -33,7 +33,6 @@ void Typing::addEventHandler(sf::RenderWindow &window, sf::Event event) {
                     cursor->setX(currTop->getCursorX());
                     cursor->setY(currTop->getCursorY());
                 }
-                _sleep(200);
             }
         }
     }
@@ -43,7 +42,6 @@ void Typing::addEventHandler(sf::RenderWindow &window, sf::Event event) {
            cursor->moveLeft();
            Snapshot *curr = new Snapshot(characterContainer, cursor->getX(), cursor->getY());
            history->push(curr);
-           _sleep(100);
     }
     else if (event.type == sf::Event::TextEntered && event.text.unicode != 0x000008 && cursor->getX() < limit ) {
         characterContainer.push_back(new Letter(static_cast<char>(event.text.unicode), cursor->getX(), cursor->getY()));

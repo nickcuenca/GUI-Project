@@ -17,6 +17,8 @@ private:
     // If the parent isn't found, a new parent is created
     void push(FileNode*& root, std::string parent, std::string item);
 
+    void updateY(FileNode* &curr, int &offset);
+
     //traverses the tree ad adds the evenhandlers for each of the nodes
     void traverse(FileNode* &root, sf::RenderWindow& window, sf::Event event);
 public:
@@ -44,7 +46,7 @@ public:
 //    //does nothing now
 //    virtual sf::FloatRect getGlobalBounds();
 
-
+    void updateY();
     void traverseDraw(FileNode *root, sf::RenderTarget &window, sf::RenderStates states) const;
 };
 

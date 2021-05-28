@@ -15,7 +15,7 @@ sf::Texture& Image::getImage(image image) {
 
 void Image::loadImage(image image) {
     if (!loaded[image]){
-        if (!images[image].loadFromFile("images/"+getImagePath(image)))
+        if (!images[image].loadFromFile("images/" + getImagePath(image)))
             exit(28);
         loaded[image] = true;
     }

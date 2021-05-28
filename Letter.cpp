@@ -4,6 +4,7 @@
 #include "stdio.h"
 #include "Letter.h"
 #include "iostream"
+
 using namespace std;
 Letter::Letter(char character, int x, int y) {
     this->character = character;

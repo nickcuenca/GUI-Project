@@ -20,7 +20,7 @@ TextInput::TextInput(int x, int y, int length, int width) {
 void TextInput::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     window.draw(*label1);
     window.draw(*typing);
-    _sleep(100);
+    //_sleep(100);
 }
 
 void TextInput::addEventHandler(sf::RenderWindow &window, sf::Event event) {

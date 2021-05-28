@@ -20,7 +20,6 @@ void MenuBar::draw(sf::RenderTarget &window, sf::RenderStates states) const {
         window.draw(*dropdownMenus[i]);
     }
 
-    _sleep(100);
 }
 
 void MenuBar::update() {

@@ -12,13 +12,11 @@
 #include "MenuHistory.h"
 
 
-
 //This is the class that brings the Item, ItemList and InputBox together. This class must also be a child of GUIComponent
 class DropdownMenu : public GUI_components {
 private:
     InputBox* inputBox;
     std::vector<std::string> names;
-
     ItemList *itemList;
     bool dropdownVisible;
     MenuHistory* menuHistory_;

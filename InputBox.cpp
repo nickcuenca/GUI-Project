@@ -4,6 +4,7 @@
 
 #include "InputBox.h"
 #include <iostream>
+
 void InputBox::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     TextBox::draw(window, states);
     window.draw(inputWord);
@@ -19,8 +20,12 @@ InputBox::InputBox(const InputBox& box) : TextBox(box.getX(), box.getY(), box.ge
     }
     this->inputWord.setFont(myFont);
     this->inputWord.setCharacterSize(50);
-    this->inputWord.setColor(sf::Color::Black);
+    this->inputWord.setFillColor(sf::Color::Black);
     this->inputWord.setPosition(box.getX(), box.getY());
+}
+
+void InputBox::update(){
+    this->inputWord.setPosition(getX(), getY());
 }
 
 
@@ -34,7 +39,7 @@ InputBox::InputBox(int x, int y, int length, int width, std::string input) : Tex
     }
     this->inputWord.setFont(myFont);
     this->inputWord.setCharacterSize(50);
-    this->inputWord.setColor(sf::Color::Black);
+    this->inputWord.setFillColor(sf::Color::Black);
     this->inputWord.setPosition(x, y);
 }
 
@@ -46,3 +51,6 @@ void InputBox::setString(std::string input) {
 std::string InputBox::getString() const{
     return input;
 }
+
+
+

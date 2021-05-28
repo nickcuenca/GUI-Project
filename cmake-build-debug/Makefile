@@ -142,6 +142,33 @@ Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/build
 .PHONY : Project/fast
 
+Background.obj: Background.cpp.obj
+
+.PHONY : Background.obj
+
+# target to build an object file
+Background.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Background.cpp.obj
+.PHONY : Background.cpp.obj
+
+Background.i: Background.cpp.i
+
+.PHONY : Background.i
+
+# target to preprocess a source file
+Background.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Background.cpp.i
+.PHONY : Background.cpp.i
+
+Background.s: Background.cpp.s
+
+.PHONY : Background.s
+
+# target to generate assembly for a file
+Background.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Background.cpp.s
+.PHONY : Background.cpp.s
+
 Cursor.obj: Cursor.cpp.obj
 
 .PHONY : Cursor.obj
@@ -682,6 +709,33 @@ MouseEvents.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MouseEvents.cpp.s
 .PHONY : MouseEvents.cpp.s
 
+Slider.obj: Slider.cpp.obj
+
+.PHONY : Slider.obj
+
+# target to build an object file
+Slider.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Slider.cpp.obj
+.PHONY : Slider.cpp.obj
+
+Slider.i: Slider.cpp.i
+
+.PHONY : Slider.i
+
+# target to preprocess a source file
+Slider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Slider.cpp.i
+.PHONY : Slider.cpp.i
+
+Slider.s: Slider.cpp.s
+
+.PHONY : Slider.s
+
+# target to generate assembly for a file
+Slider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Slider.cpp.s
+.PHONY : Slider.cpp.s
+
 Snapshot.obj: Snapshot.cpp.obj
 
 .PHONY : Snapshot.obj
@@ -880,6 +934,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Project
+	@echo ... Background.obj
+	@echo ... Background.i
+	@echo ... Background.s
 	@echo ... Cursor.obj
 	@echo ... Cursor.i
 	@echo ... Cursor.s
@@ -940,6 +997,9 @@ help:
 	@echo ... MouseEvents.obj
 	@echo ... MouseEvents.i
 	@echo ... MouseEvents.s
+	@echo ... Slider.obj
+	@echo ... Slider.i
+	@echo ... Slider.s
 	@echo ... Snapshot.obj
 	@echo ... Snapshot.i
 	@echo ... Snapshot.s

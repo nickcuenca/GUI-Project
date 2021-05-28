@@ -18,7 +18,7 @@ public:
     int getY() const;
     int getWidth() const;
     int getLength() const;
-
+    void setY(int y);
     void highlightBlue();
     void reset();
     void setLength(int length);

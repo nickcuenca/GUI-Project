@@ -4,6 +4,7 @@
 
 #include "TextBox.h"
 
+using namespace std;
 TextBox::TextBox(int x, int y, int length, int width) {
     this->x = x;
     this->y = y;
@@ -36,6 +37,11 @@ int TextBox::getWidth() const {
 
 int TextBox::getY() const {
     return y;
+}
+
+void TextBox::setY(int y) {
+    this->y = y;
+    rectangle.setPosition(x, y);
 }
 
 void TextBox::setLength(int length) {

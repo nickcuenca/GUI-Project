@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Project.dir/Background.cpp.obj"
   "CMakeFiles/Project.dir/Cursor.cpp.obj"
   "CMakeFiles/Project.dir/DropdownMenu.cpp.obj"
   "CMakeFiles/Project.dir/FileItem.cpp.obj"
@@ -19,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Project.dir/MenuHistory.cpp.obj"
   "CMakeFiles/Project.dir/MenuSnapshot.cpp.obj"
   "CMakeFiles/Project.dir/MouseEvents.cpp.obj"
+  "CMakeFiles/Project.dir/Slider.cpp.obj"
   "CMakeFiles/Project.dir/Snapshot.cpp.obj"
   "CMakeFiles/Project.dir/Stack.cpp.obj"
   "CMakeFiles/Project.dir/States.cpp.obj"

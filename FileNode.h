@@ -47,12 +47,15 @@ public:
     void addEventHandler(sf::RenderWindow& window, sf::Event event);
     //does nothing now
     void update();
+    void updateYs(int offset);
+    void updateYs(FileNode *curr, int offset);
+
     //returns true if the node has no children, otherwise false
     bool isLeaf() const;
     //getters and setters
-    FileItem* &getData();
+    FileItem* getData();
     void setData(const FileItem* &data);
-    vector<FileNode*>& getChildren();
+    vector<FileNode*> getChildren();
 
     void addChild(std::string string1);
     //iterators

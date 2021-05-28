@@ -20,6 +20,7 @@ public:
 
     void setString(string input);
     std::string getString() const;
+    void update();
 };
 
 

@@ -8,7 +8,6 @@
 #include "Image.h"
 #include "Item.h"
 #include "MouseEvents.h"
-#include "DropdownMenu.h"
 
 //This class is similar to your Item class. In addition to the normal background and text,
 //the FileItem class will also have an icon. This icon indicates whether the FileItem is a directory or a file.
@@ -23,28 +22,26 @@ public:
     //I use this function to highlight the item when clicked, and unhighlight when something
     //else is clicked
     void addEventHandler(sf::RenderWindow& window, sf::Event event);
-
     void update();
-
     void addName(std::string name);
-    //uses an string to change the icon to a folder or file
+    bool getDropdown();
     void setIcon(Image::image icon);
     std::string getString() const;
-
-    DropdownMenu * getMenu() const;
-
+    Image::image getIcon() const;
+    void setY(int y);
 private:
     //this is the folder or file icon
+    Image::image icon_img;
     InputBox *box;
-    std::vector<std::string> names;
-    DropdownMenu *menu;
     sf::Texture iconPic;
     sf::Sprite icon;
     float padding = 5;
     std::string text;
     int x;
     int y;
-
+    int length;
+    int width;
+    bool dropdown_menu;
 };
 
 
