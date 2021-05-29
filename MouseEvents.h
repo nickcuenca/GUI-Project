@@ -27,6 +27,8 @@ public:
     static bool mouseClicked(T& object, sf::RenderWindow& window);
     static bool mouseHovered(T& object, sf::RenderWindow& window);
 
+    static bool mouseClickedCircle(T& object, sf::RenderWindow& window);
+
 private:
     // this is what I used to determine if a double click or triple click occurred
     // you don't have to use this if you don't want to

@@ -72,6 +72,24 @@ void MouseEvents<T>::countClicks(sf::Event event) {
   clicks++;
 }
 
+template<class T>
+bool MouseEvents<T>::mouseClickedCircle(T& object, sf::RenderWindow& window) {
+    if(sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
+        sf::Vector2i position = sf::Mouse::getPosition(window);
+        sf::Vector2f circlePosition = object.getOrigin();
+        std::cout << (circlePosition.x - object.getRadius() <  position.x) << std::endl;
+        std::cout << (position.x < circlePosition.x + object.getRadius()) << std::endl;
+        std::cout << (circlePosition.y - object.getRadius() <  position.y) << std::endl;
+        std::cout << (position.y < circlePosition.y + object.getRadius()) << std::endl;
+        std:: cout << " " << std::endl;
+
+
+        if ((circlePosition.x - object.getRadius() <  position.x || position.x < circlePosition.x + object.getRadius()) &&
+                (circlePosition.y - object.getRadius() <  position.y || position.y < circlePosition.y + object.getRadius())) {
+            return true;
+        }
+    }
+    return false;}
 
 
 #include "MouseEvents.cpp"

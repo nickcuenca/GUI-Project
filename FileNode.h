@@ -30,6 +30,7 @@ class FileNode : public GUI_components {
     //this is called in the draw function to reposition the children so they
     //are indented and below the parent
     void reposition() const;
+    sf::RectangleShape *img;
 public:
     // this is so I can use the iterator for the children map publicly
     typedef typename std::map<std::string, FileNode*>::iterator iterator;

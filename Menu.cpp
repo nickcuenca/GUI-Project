@@ -21,3 +21,10 @@ MenuBar *Menu::getMenuBar() const {
     return menuBar;
 }
 
+vector<std::string> Menu::getChoices(){
+    vector<std::string> strings;
+    for(int i = 0; i < dropdownMenus.size(); i++){
+        strings.push_back(dropdownMenus[i]->getCurrentTop());
+    }
+    return strings;
+}

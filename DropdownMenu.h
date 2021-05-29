@@ -27,6 +27,8 @@ public:
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
     virtual void addEventHandler(sf::RenderWindow& window, sf::Event event);
     virtual void update();
+
+    string getCurrentTop();
 };
 
 

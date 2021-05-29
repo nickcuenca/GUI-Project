@@ -27,18 +27,16 @@ DropdownMenu::DropdownMenu(InputBox *inputBox, std::vector<std::string> _names, 
 
 void DropdownMenu::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     window.draw(*inputBox);
+
     if (dropdownVisible){
         window.draw(*itemList);
-//        cout << "DROPDOWN" << inputBox->getString() << "Address: " << inputBox << names.size() << endl;
     }
-//    _sleep(100);
 }
 
 void DropdownMenu::addEventHandler(sf::RenderWindow &window, sf::Event event) {
 
     if(MouseEvents<InputBox>::mouseClicked(*inputBox, window)){
         dropdownVisible = true;
-//        cout << "DROPDOWN22212" << inputBox->getString()  << " " << inputBox <<  names.size() << endl;
     }
     
 
@@ -86,6 +84,10 @@ void DropdownMenu::addEventHandler(sf::RenderWindow &window, sf::Event event) {
 //        }
     }
 
+}
+
+std::string DropdownMenu::getCurrentTop(){
+    return inputBox->getString();
 }
 
 void DropdownMenu::update() {

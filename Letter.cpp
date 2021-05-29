@@ -8,13 +8,7 @@
 using namespace std;
 Letter::Letter(char character, int x, int y) {
     this->character = character;
-    if (isdigit(character)){
-        color = sf::Color::Red;
-    } else if (isalpha(character)){
-        color = sf::Color::Blue;
-    } else {
-        color = sf::Color::Green;
-    }
+    color = sf::Color::Red;
     this -> x=  x;
     this -> y = y;
 
@@ -23,10 +17,50 @@ Letter::Letter(char character, int x, int y) {
     toDraw.setString(character);
     toDraw.setPosition(x, y);
     toDraw.setFillColor(color);
-    toDraw.setCharacterSize(50);
+    toDraw.setCharacterSize(25);
 
 }
 
 void Letter::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     window.draw(toDraw);
+}
+
+Letter::Letter(const Letter &letter) {
+    character = letter.character;
+//    if (isdigit(character)){
+//        color = sf::Color::Red;
+//    } else if (isalpha(character)){
+//        color = sf::Color::Blue;
+//    } else {
+//        color = sf::Color::Green;
+//    }
+
+    color = letter.color;
+    x = letter.x;
+    y = letter.y;
+    font = letter.font;
+    toDraw = letter.toDraw;
+}
+
+int Letter::getX() {
+    return x;
+}
+
+int Letter::getY() {
+    return y;
+}
+
+void Letter::setX(int x) {
+    this->x = x;
+    toDraw.setPosition(x, y);
+}
+
+void Letter::setY(int y) {
+    this->y = y;
+    toDraw.setPosition(x, y);
+}
+
+void Letter::setColor(const sf::Color &color) {
+    this->color = color;
+    toDraw.setFillColor(color);
 }

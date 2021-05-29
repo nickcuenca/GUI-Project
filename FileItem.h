@@ -29,6 +29,7 @@ public:
     std::string getString() const;
     Image::image getIcon() const;
     void setY(int y);
+    static std::string background;
 private:
     //this is the folder or file icon
     Image::image icon_img;
@@ -41,6 +42,8 @@ private:
     int y;
     int length;
     int width;
+    std::string *img;
+
     bool dropdown_menu;
 };
 

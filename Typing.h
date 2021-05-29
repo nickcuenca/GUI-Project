@@ -10,6 +10,7 @@
 #include "History.h"
 #include "States.h"
 #include "TextBox.h"
+#include "MouseEvents.h"
 
 class Typing : public sf::Drawable {
 private:
@@ -23,12 +24,14 @@ private:
     TextBox *textBox1;
 
     int limit;
-    bool blink;
+    bool blink, enable_typing;
 public:
     Typing(Cursor *c, int limit, TextBox *textBox1);
     void addEventHandler(sf::RenderWindow &window, sf::Event event); //should be in the pollEvent loop and is used to detect when a key is pressed on the keyboard and concatenates the character to the sf::Text object
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const; //This function is to draw your text
     States * getStates();
+    const vector<Letter *> &getCharacterContainer() const;
+
     void setBlink();
 };
 

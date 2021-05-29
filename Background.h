@@ -12,10 +12,16 @@ private:
     sf::Texture picOfLayout, backgroundTexture, enterButtonTexture, bananaTexture;
     sf::Sprite sprite, banana;
     sf::Font globalFont;
-    sf::Text name, className, crn, semester, descriptionOfGame, enterGameString, directions, funky;
+    sf::Text commandCenter;
     sf::RectangleShape portrait, enterButton;
     sf::SoundBuffer buffer;
     sf::Sound song;
+
+    sf::RectangleShape commandCenterRectangle;
+    sf::RectangleShape *memeRectangle;
+public:
+    sf::RectangleShape *getMemeRectangle();
+
 public:
     Background();
     void draw(sf::RenderTarget &window, sf::RenderStates states) const;
@@ -24,6 +30,8 @@ public:
     void playSong();
     //Precondition: A Song object is created.
     //Postcondition: A Song is now setup.
+    void setRec();
+    void setCC();
 };
 
 

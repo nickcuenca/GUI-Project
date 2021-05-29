@@ -14,7 +14,7 @@ TextBox::TextBox(int x, int y, int length, int width) {
     rectangle.setPosition(x, y);
     rectangle.setSize(sf::Vector2f(width, length));
     rectangle.setFillColor(sf::Color::White);
-    rectangle.setOutlineColor(sf::Color::Red);
+    rectangle.setOutlineColor(sf::Color::Black);
     rectangle.setOutlineThickness(5);
 }
 

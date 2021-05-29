@@ -45,6 +45,8 @@ std::string FileItem::getString() const{
     return text;
 }
 
+
+
 void FileItem::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     Item::draw(window, states);
     window.draw(icon);
@@ -52,8 +54,13 @@ void FileItem::draw(sf::RenderTarget &window, sf::RenderStates states) const {
 
 void FileItem::addEventHandler(sf::RenderWindow &window, sf::Event event) {
     if(MouseEvents<FileItem>::mouseClicked(*this, window)){
-        dropdown_menu =! dropdown_menu;
+        dropdown_menu = !dropdown_menu;
+        if(text.compare("Bad Luck Brian") == 0){
+            background = text;
+        }
     }
+
+
     if(MouseEvents<FileItem>::mouseHovered(*this, window)){
         this->highlightBlue();
     } else {

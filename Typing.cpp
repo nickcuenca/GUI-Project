@@ -18,45 +18,53 @@ Typing::Typing(Cursor *cursor, int limit, TextBox *textBox1) {
     this->states1 = new States();
     this->limit = limit;
     this->blink = true;
+    this->enable_typing = false;
 }
 
 void Typing::addEventHandler(sf::RenderWindow &window, sf::Event event) {
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::LControl)){
-        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Z)){
-            if(history->size() != 0){
-                history->pop();
-                if(history->size() == 0){
-                    characterContainer.clear();
-                } else {
-                    Snapshot * currTop = history->top();
-                    characterContainer = currTop->getVec();
-                    cursor->setX(currTop->getCursorX());
-                    cursor->setY(currTop->getCursorY());
+        if(MouseEvents<TextBox>::mouseClicked(*textBox1, window)) {
+            enable_typing = !enable_typing; //
+        }
+
+    if(enable_typing) {
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::LControl)) {
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Z)) {
+                if (history->size() != 0) {
+                    history->pop();
+                    if (history->size() == 0) {
+                        characterContainer.clear();
+                    } else {
+                        Snapshot *currTop = history->top();
+                        characterContainer = currTop->getVec();
+                        cursor->setX(currTop->getCursorX());
+                        cursor->setY(currTop->getCursorY());
+                    }
                 }
             }
+        } else if (event.text.unicode == 0x000008 && characterContainer.size() != 0) {
+            characterContainer.pop_back();
+            cursor->moveLeft();
+            Snapshot *curr = new Snapshot(characterContainer, cursor->getX(), cursor->getY());
+            history->push(curr);
+        } else if (event.type == sf::Event::TextEntered && event.text.unicode != 0x000008 && cursor->getX() < limit) {
+            characterContainer.push_back(
+                    new Letter(static_cast<char>(event.text.unicode), cursor->getX(), cursor->getY()));
+            cursor->moveRight();
+            Snapshot *curr = new Snapshot(characterContainer, cursor->getX(), cursor->getY());
+            history->push(curr);
+        } else if (event.type == sf::Event::TextEntered && cursor->getX() >= limit) {
+            characterContainer.push_back(
+                    new Letter(static_cast<char>(event.text.unicode), cursor->getX(), cursor->getY()));
+            textBox1 = new TextBox(textBox1->getX(), textBox1->getY(), textBox1->getLength() + 30,
+                                   textBox1->getWidth());
+            cursor->setX(1400);
+            cursor->moveDown();
+            Snapshot *curr = new Snapshot(characterContainer, cursor->getX(), cursor->getY());
+            history->push(curr);
+        } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter)) {
+            textBox1 = new TextBox(textBox1->getX(), textBox1->getY(), textBox1->getLength() + 30,
+                                   textBox1->getWidth());
         }
-    }
-
-    else if(event.text.unicode == 0x000008 && characterContainer.size() != 0){
-           characterContainer.pop_back();
-           cursor->moveLeft();
-           Snapshot *curr = new Snapshot(characterContainer, cursor->getX(), cursor->getY());
-           history->push(curr);
-    }
-    else if (event.type == sf::Event::TextEntered && event.text.unicode != 0x000008 && cursor->getX() < limit ) {
-        characterContainer.push_back(new Letter(static_cast<char>(event.text.unicode), cursor->getX(), cursor->getY()));
-        cursor->moveRight();
-        Snapshot *curr = new Snapshot(characterContainer, cursor->getX(), cursor->getY());
-        history->push(curr);
-    } else if (event.type == sf::Event::TextEntered && cursor->getX() >= limit){
-        characterContainer.push_back(new Letter(static_cast<char>(event.text.unicode), cursor->getX(), cursor->getY()));
-        textBox1 = new TextBox(textBox1->getX(), textBox1->getY(), textBox1->getLength() + 30, textBox1->getWidth());
-        cursor->setX(100);
-        cursor->moveDown();
-        Snapshot *curr = new Snapshot(characterContainer, cursor->getX(), cursor->getY());
-        history->push(curr);
-    } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter)){
-        textBox1 = new TextBox(textBox1->getX(), textBox1->getY(), textBox1->getLength() + 30, textBox1->getWidth());
     }
 
 
@@ -88,4 +96,8 @@ States *Typing::getStates() {
 
 void Typing::setBlink(){
     blink = !blink;
+}
+
+const vector<Letter *> &Typing::getCharacterContainer() const {
+    return characterContainer;
 }

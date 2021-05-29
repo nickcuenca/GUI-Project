@@ -26,6 +26,7 @@ public:
     Menu(std::vector<std::vector<std::string>> allItems, int starting_x, int starting_y, int length, int width, std::vector<std::string> inputboxNames);
     MenuBar *getMenuBar() const;
 
+    vector<std::string> getChoices();
 };
 
 

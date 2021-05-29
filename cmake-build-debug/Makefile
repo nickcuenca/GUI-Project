@@ -574,6 +574,87 @@ LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/LinkedList.cpp.s
 .PHONY : LinkedList.cpp.s
 
+MemeGenerator.obj: MemeGenerator.cpp.obj
+
+.PHONY : MemeGenerator.obj
+
+# target to build an object file
+MemeGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MemeGenerator.cpp.obj
+.PHONY : MemeGenerator.cpp.obj
+
+MemeGenerator.i: MemeGenerator.cpp.i
+
+.PHONY : MemeGenerator.i
+
+# target to preprocess a source file
+MemeGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MemeGenerator.cpp.i
+.PHONY : MemeGenerator.cpp.i
+
+MemeGenerator.s: MemeGenerator.cpp.s
+
+.PHONY : MemeGenerator.s
+
+# target to generate assembly for a file
+MemeGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MemeGenerator.cpp.s
+.PHONY : MemeGenerator.cpp.s
+
+MemeTyping.obj: MemeTyping.cpp.obj
+
+.PHONY : MemeTyping.obj
+
+# target to build an object file
+MemeTyping.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MemeTyping.cpp.obj
+.PHONY : MemeTyping.cpp.obj
+
+MemeTyping.i: MemeTyping.cpp.i
+
+.PHONY : MemeTyping.i
+
+# target to preprocess a source file
+MemeTyping.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MemeTyping.cpp.i
+.PHONY : MemeTyping.cpp.i
+
+MemeTyping.s: MemeTyping.cpp.s
+
+.PHONY : MemeTyping.s
+
+# target to generate assembly for a file
+MemeTyping.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/MemeTyping.cpp.s
+.PHONY : MemeTyping.cpp.s
+
+Memes.obj: Memes.cpp.obj
+
+.PHONY : Memes.obj
+
+# target to build an object file
+Memes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Memes.cpp.obj
+.PHONY : Memes.cpp.obj
+
+Memes.i: Memes.cpp.i
+
+.PHONY : Memes.i
+
+# target to preprocess a source file
+Memes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Memes.cpp.i
+.PHONY : Memes.cpp.i
+
+Memes.s: Memes.cpp.s
+
+.PHONY : Memes.s
+
+# target to generate assembly for a file
+Memes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make CMakeFiles/Project.dir/Memes.cpp.s
+.PHONY : Memes.cpp.s
+
 Menu.obj: Menu.cpp.obj
 
 .PHONY : Menu.obj
@@ -982,6 +1063,15 @@ help:
 	@echo ... LinkedList.obj
 	@echo ... LinkedList.i
 	@echo ... LinkedList.s
+	@echo ... MemeGenerator.obj
+	@echo ... MemeGenerator.i
+	@echo ... MemeGenerator.s
+	@echo ... MemeTyping.obj
+	@echo ... MemeTyping.i
+	@echo ... MemeTyping.s
+	@echo ... Memes.obj
+	@echo ... Memes.i
+	@echo ... Memes.s
 	@echo ... Menu.obj
 	@echo ... Menu.i
 	@echo ... Menu.s

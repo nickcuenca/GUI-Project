@@ -7,7 +7,6 @@
 FileNode::FileNode(std::string text, int x, int y, int length, int width) {
     data = new FileItem(Image::image::FILE, text, x, y, length, width);
 }
-
 bool FileNode::isLeaf() const {
     return children.empty();
 }
@@ -16,7 +15,7 @@ void FileNode::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     data->draw(window, states);
     for(int i = 0; i < children.size() && data->getDropdown(); i++){
         children[i]->draw(window, states);
-        cout << children[i]->getData()->getString() << " " << children[i]->getData()->getY() << endl;
+        //cout << children[i]->getData()->getString() << " " << children[i]->getData()->getY() << endl;
     }
 }
 

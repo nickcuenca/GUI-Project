@@ -482,6 +482,48 @@ CMakeFiles/Project.dir/Slider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Slider.cpp.s"
 	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\Slider.cpp" -o CMakeFiles\Project.dir\Slider.cpp.s
 
+CMakeFiles/Project.dir/Memes.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/Memes.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/Memes.cpp.obj: ../Memes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Project.dir/Memes.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\Memes.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\Memes.cpp"
+
+CMakeFiles/Project.dir/Memes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Memes.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\Memes.cpp" > CMakeFiles\Project.dir\Memes.cpp.i
+
+CMakeFiles/Project.dir/Memes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Memes.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\Memes.cpp" -o CMakeFiles\Project.dir\Memes.cpp.s
+
+CMakeFiles/Project.dir/MemeGenerator.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/MemeGenerator.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/MemeGenerator.cpp.obj: ../MemeGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Project.dir/MemeGenerator.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\MemeGenerator.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\MemeGenerator.cpp"
+
+CMakeFiles/Project.dir/MemeGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/MemeGenerator.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\MemeGenerator.cpp" > CMakeFiles\Project.dir\MemeGenerator.cpp.i
+
+CMakeFiles/Project.dir/MemeGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/MemeGenerator.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\MemeGenerator.cpp" -o CMakeFiles\Project.dir\MemeGenerator.cpp.s
+
+CMakeFiles/Project.dir/MemeTyping.cpp.obj: CMakeFiles/Project.dir/flags.make
+CMakeFiles/Project.dir/MemeTyping.cpp.obj: CMakeFiles/Project.dir/includes_CXX.rsp
+CMakeFiles/Project.dir/MemeTyping.cpp.obj: ../MemeTyping.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Project.dir/MemeTyping.cpp.obj"
+	C:\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Project.dir\MemeTyping.cpp.obj -c "E:\C++\CS8 PCC\Project 1\Project\MemeTyping.cpp"
+
+CMakeFiles/Project.dir/MemeTyping.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/MemeTyping.cpp.i"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++\CS8 PCC\Project 1\Project\MemeTyping.cpp" > CMakeFiles\Project.dir\MemeTyping.cpp.i
+
+CMakeFiles/Project.dir/MemeTyping.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/MemeTyping.cpp.s"
+	C:\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++\CS8 PCC\Project 1\Project\MemeTyping.cpp" -o CMakeFiles\Project.dir\MemeTyping.cpp.s
+
 # Object files for target Project
 Project_OBJECTS = \
 "CMakeFiles/Project.dir/main.cpp.obj" \
@@ -512,7 +554,10 @@ Project_OBJECTS = \
 "CMakeFiles/Project.dir/FileItem.cpp.obj" \
 "CMakeFiles/Project.dir/Image.cpp.obj" \
 "CMakeFiles/Project.dir/Background.cpp.obj" \
-"CMakeFiles/Project.dir/Slider.cpp.obj"
+"CMakeFiles/Project.dir/Slider.cpp.obj" \
+"CMakeFiles/Project.dir/Memes.cpp.obj" \
+"CMakeFiles/Project.dir/MemeGenerator.cpp.obj" \
+"CMakeFiles/Project.dir/MemeTyping.cpp.obj"
 
 # External object files for target Project
 Project_EXTERNAL_OBJECTS =
@@ -546,6 +591,9 @@ Project.exe: CMakeFiles/Project.dir/FileItem.cpp.obj
 Project.exe: CMakeFiles/Project.dir/Image.cpp.obj
 Project.exe: CMakeFiles/Project.dir/Background.cpp.obj
 Project.exe: CMakeFiles/Project.dir/Slider.cpp.obj
+Project.exe: CMakeFiles/Project.dir/Memes.cpp.obj
+Project.exe: CMakeFiles/Project.dir/MemeGenerator.cpp.obj
+Project.exe: CMakeFiles/Project.dir/MemeTyping.cpp.obj
 Project.exe: CMakeFiles/Project.dir/build.make
 Project.exe: C:/SFML-2.5.1/lib/libsfml-audio-s-d.a
 Project.exe: C:/SFML-2.5.1/lib/libsfml-graphics-s-d.a
@@ -567,7 +615,7 @@ Project.exe: C:/SFML-2.5.1/lib/libogg.a
 Project.exe: CMakeFiles/Project.dir/linklibs.rsp
 Project.exe: CMakeFiles/Project.dir/objects1.rsp
 Project.exe: CMakeFiles/Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\C++\CS8 PCC\Project 1\Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

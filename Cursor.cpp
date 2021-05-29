@@ -30,12 +30,12 @@ int Cursor::getY(){
 
 
 void Cursor::moveRight() {
-    x = x  + 40;
+    x = x  + 20;
     rectangle.setPosition(x, y);
 }
 
 void Cursor::moveLeft() {
-    x = x - 40;
+    x = x - 20;
     rectangle.setPosition(x, y);
 }
 
@@ -49,6 +49,6 @@ void Cursor::setX(int i) {
 }
 
 void Cursor::moveDown() {
-    y = y + 40;
+    y = y + 20;
     rectangle.setPosition(x, y);
 }

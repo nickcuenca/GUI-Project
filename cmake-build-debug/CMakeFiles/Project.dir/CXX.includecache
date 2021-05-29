@@ -680,6 +680,20 @@ E:/C++/CS8 PCC/Project 1/Project/EventHandler.h
 SFML/Graphics.hpp
 -
 
+E:/C++/CS8 PCC/Project 1/Project/FileItem.cpp
+FileItem.h
+E:/C++/CS8 PCC/Project 1/Project/FileItem.h
+
+E:/C++/CS8 PCC/Project 1/Project/FileItem.h
+GUI_components.h
+E:/C++/CS8 PCC/Project 1/Project/GUI_components.h
+Image.h
+E:/C++/CS8 PCC/Project 1/Project/Image.h
+Item.h
+E:/C++/CS8 PCC/Project 1/Project/Item.h
+MouseEvents.h
+E:/C++/CS8 PCC/Project 1/Project/MouseEvents.h
+
 E:/C++/CS8 PCC/Project 1/Project/GUI_components.h
 SFML/Graphics.hpp
 E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
@@ -688,21 +702,51 @@ E:/C++/CS8 PCC/Project 1/Project/EventHandler.h
 Snapshot.h
 E:/C++/CS8 PCC/Project 1/Project/Snapshot.h
 
+E:/C++/CS8 PCC/Project 1/Project/Image.h
+map
+E:/C++/CS8 PCC/Project 1/Project/map
+SFML/Graphics.hpp
+E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
+string
+-
+
+E:/C++/CS8 PCC/Project 1/Project/InputBox.h
+TextBox.h
+E:/C++/CS8 PCC/Project 1/Project/TextBox.h
+
+E:/C++/CS8 PCC/Project 1/Project/Item.h
+InputBox.h
+E:/C++/CS8 PCC/Project 1/Project/InputBox.h
+
 E:/C++/CS8 PCC/Project 1/Project/Letter.h
 SFML/Graphics.hpp
 E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
 
-E:/C++/CS8 PCC/Project 1/Project/Slider.cpp
-Slider.h
-E:/C++/CS8 PCC/Project 1/Project/Slider.h
+E:/C++/CS8 PCC/Project 1/Project/MouseEvents.cpp
+iostream
+-
+MouseEvents.h
+E:/C++/CS8 PCC/Project 1/Project/MouseEvents.h
+SFML/Graphics.hpp
+E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
+MouseEvents.cpp
+E:/C++/CS8 PCC/Project 1/Project/MouseEvents.cpp
 
-E:/C++/CS8 PCC/Project 1/Project/Slider.h
-GUI_components.h
-E:/C++/CS8 PCC/Project 1/Project/GUI_components.h
+E:/C++/CS8 PCC/Project 1/Project/MouseEvents.h
+SFML/Graphics.hpp
+E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
+MouseEvents.cpp
+E:/C++/CS8 PCC/Project 1/Project/MouseEvents.cpp
 
 E:/C++/CS8 PCC/Project 1/Project/Snapshot.h
 string
 -
 Letter.h
 E:/C++/CS8 PCC/Project 1/Project/Letter.h
+
+E:/C++/CS8 PCC/Project 1/Project/TextBox.h
+SFML/Graphics.hpp
+E:/C++/CS8 PCC/Project 1/Project/SFML/Graphics.hpp
+GUI_components.h
+E:/C++/CS8 PCC/Project 1/Project/GUI_components.h
 

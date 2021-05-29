@@ -38,7 +38,7 @@ InputBox::InputBox(int x, int y, int length, int width, std::string input) : Tex
         return;
     }
     this->inputWord.setFont(myFont);
-    this->inputWord.setCharacterSize(50);
+    this->inputWord.setCharacterSize(20);
     this->inputWord.setFillColor(sf::Color::Black);
     this->inputWord.setPosition(x, y);
 }

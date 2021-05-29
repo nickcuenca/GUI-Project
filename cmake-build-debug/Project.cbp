@@ -183,6 +183,24 @@
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/LinkedList.h">
 			<Option target="Project"/>
 		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MemeGenerator.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MemeGenerator.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MemeTyping.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/MemeTyping.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Memes.cpp">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Memes.h">
+			<Option target="Project"/>
+		</Unit>
 		<Unit filename="E:/C++/CS8 PCC/Project 1/Project/Menu.cpp">
 			<Option target="Project"/>
 		</Unit>
