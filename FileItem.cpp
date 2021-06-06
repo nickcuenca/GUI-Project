@@ -29,12 +29,13 @@ void FileItem::setY(int y){
     InputBox::update();
 }
 
-FileItem::FileItem(Image::image icon, std::string text, int x, int y, int length, int width): Item(x,y, length, width, text){
+FileItem::FileItem(Image::image icon, std::string text, int x, int y, int length, int width, Background *background): Item(x,y, length, width, text){
     this->text = text;
     this->length = length;
     this->width = width;
     this->setIcon(icon);
     this->dropdown_menu = false;
+    this->background = background;
 }
 
 bool FileItem::getDropdown(){
@@ -55,9 +56,7 @@ void FileItem::draw(sf::RenderTarget &window, sf::RenderStates states) const {
 void FileItem::addEventHandler(sf::RenderWindow &window, sf::Event event) {
     if(MouseEvents<FileItem>::mouseClicked(*this, window)){
         dropdown_menu = !dropdown_menu;
-        if(text.compare("Bad Luck Brian") == 0){
-            background = text;
-        }
+        background->setMemeRectangle(text);
     }
 
 

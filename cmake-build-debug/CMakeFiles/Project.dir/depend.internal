@@ -267,6 +267,23 @@ CMakeFiles/Project.dir/DropdownMenu.cpp.obj
  E:/C++/CS8 PCC/Project 1/Project/Stack.h
  E:/C++/CS8 PCC/Project 1/Project/TextBox.h
 CMakeFiles/Project.dir/FileItem.cpp.obj
+ C:/SFML-2.5.1/include/SFML/Audio.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/AlResource.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Export.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/InputSoundFile.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Listener.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Music.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/OutputSoundFile.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Sound.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundBuffer.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundBufferRecorder.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.inl
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileReader.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileWriter.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundRecorder.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundSource.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundStream.hpp
  C:/SFML-2.5.1/include/SFML/Config.hpp
  C:/SFML-2.5.1/include/SFML/Graphics.hpp
  C:/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp
@@ -341,6 +358,7 @@ CMakeFiles/Project.dir/FileItem.cpp.obj
  C:/SFML-2.5.1/include/SFML/Window/Window.hpp
  C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
  C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+ E:/C++/CS8 PCC/Project 1/Project/Background.h
  E:/C++/CS8 PCC/Project 1/Project/EventHandler.h
  E:/C++/CS8 PCC/Project 1/Project/FileItem.cpp
  E:/C++/CS8 PCC/Project 1/Project/FileItem.h
@@ -354,6 +372,23 @@ CMakeFiles/Project.dir/FileItem.cpp.obj
  E:/C++/CS8 PCC/Project 1/Project/Snapshot.h
  E:/C++/CS8 PCC/Project 1/Project/TextBox.h
 CMakeFiles/Project.dir/FileNode.cpp.obj
+ C:/SFML-2.5.1/include/SFML/Audio.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/AlResource.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Export.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/InputSoundFile.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Listener.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Music.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/OutputSoundFile.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Sound.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundBuffer.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundBufferRecorder.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.inl
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileReader.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileWriter.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundRecorder.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundSource.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundStream.hpp
  C:/SFML-2.5.1/include/SFML/Config.hpp
  C:/SFML-2.5.1/include/SFML/Graphics.hpp
  C:/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp
@@ -428,6 +463,7 @@ CMakeFiles/Project.dir/FileNode.cpp.obj
  C:/SFML-2.5.1/include/SFML/Window/Window.hpp
  C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
  C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+ E:/C++/CS8 PCC/Project 1/Project/Background.h
  E:/C++/CS8 PCC/Project 1/Project/EventHandler.h
  E:/C++/CS8 PCC/Project 1/Project/FileItem.h
  E:/C++/CS8 PCC/Project 1/Project/FileNode.cpp
@@ -442,6 +478,23 @@ CMakeFiles/Project.dir/FileNode.cpp.obj
  E:/C++/CS8 PCC/Project 1/Project/Snapshot.h
  E:/C++/CS8 PCC/Project 1/Project/TextBox.h
 CMakeFiles/Project.dir/FileTree.cpp.obj
+ C:/SFML-2.5.1/include/SFML/Audio.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/AlResource.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Export.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/InputSoundFile.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Listener.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Music.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/OutputSoundFile.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/Sound.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundBuffer.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundBufferRecorder.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.inl
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileReader.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundFileWriter.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundRecorder.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundSource.hpp
+ C:/SFML-2.5.1/include/SFML/Audio/SoundStream.hpp
  C:/SFML-2.5.1/include/SFML/Config.hpp
  C:/SFML-2.5.1/include/SFML/Graphics.hpp
  C:/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp
@@ -516,6 +569,7 @@ CMakeFiles/Project.dir/FileTree.cpp.obj
  C:/SFML-2.5.1/include/SFML/Window/Window.hpp
  C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
  C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+ E:/C++/CS8 PCC/Project 1/Project/Background.h
  E:/C++/CS8 PCC/Project 1/Project/EventHandler.h
  E:/C++/CS8 PCC/Project 1/Project/FileItem.h
  E:/C++/CS8 PCC/Project 1/Project/FileNode.h

@@ -266,6 +266,23 @@ CMakeFiles/Project.dir/DropdownMenu.cpp.obj: ../Stack.cpp
 CMakeFiles/Project.dir/DropdownMenu.cpp.obj: ../Stack.h
 CMakeFiles/Project.dir/DropdownMenu.cpp.obj: ../TextBox.h
 
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/AlResource.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Export.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/InputSoundFile.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Listener.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Music.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/OutputSoundFile.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Sound.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundBuffer.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundBufferRecorder.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.inl
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileReader.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileWriter.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundRecorder.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundSource.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundStream.hpp
 CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Config.hpp
 CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Graphics.hpp
 CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp
@@ -340,6 +357,7 @@ CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/Video
 CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/Window.hpp
 CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Project.dir/FileItem.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/Project.dir/FileItem.cpp.obj: ../Background.h
 CMakeFiles/Project.dir/FileItem.cpp.obj: ../EventHandler.h
 CMakeFiles/Project.dir/FileItem.cpp.obj: ../FileItem.cpp
 CMakeFiles/Project.dir/FileItem.cpp.obj: ../FileItem.h
@@ -353,6 +371,23 @@ CMakeFiles/Project.dir/FileItem.cpp.obj: ../MouseEvents.h
 CMakeFiles/Project.dir/FileItem.cpp.obj: ../Snapshot.h
 CMakeFiles/Project.dir/FileItem.cpp.obj: ../TextBox.h
 
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/AlResource.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Export.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/InputSoundFile.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Listener.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Music.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/OutputSoundFile.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Sound.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundBuffer.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundBufferRecorder.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.inl
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileReader.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileWriter.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundRecorder.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundSource.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundStream.hpp
 CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Config.hpp
 CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Graphics.hpp
 CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp
@@ -427,6 +462,7 @@ CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/Video
 CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/Window.hpp
 CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Project.dir/FileNode.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/Project.dir/FileNode.cpp.obj: ../Background.h
 CMakeFiles/Project.dir/FileNode.cpp.obj: ../EventHandler.h
 CMakeFiles/Project.dir/FileNode.cpp.obj: ../FileItem.h
 CMakeFiles/Project.dir/FileNode.cpp.obj: ../FileNode.cpp
@@ -441,6 +477,23 @@ CMakeFiles/Project.dir/FileNode.cpp.obj: ../MouseEvents.h
 CMakeFiles/Project.dir/FileNode.cpp.obj: ../Snapshot.h
 CMakeFiles/Project.dir/FileNode.cpp.obj: ../TextBox.h
 
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/AlResource.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Export.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/InputSoundFile.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Listener.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Music.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/OutputSoundFile.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/Sound.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundBuffer.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundBufferRecorder.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileFactory.inl
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileReader.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundFileWriter.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundRecorder.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundSource.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Audio/SoundStream.hpp
 CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Config.hpp
 CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Graphics.hpp
 CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp
@@ -515,6 +568,7 @@ CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/Video
 CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/Window.hpp
 CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Project.dir/FileTree.cpp.obj: C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/Project.dir/FileTree.cpp.obj: ../Background.h
 CMakeFiles/Project.dir/FileTree.cpp.obj: ../EventHandler.h
 CMakeFiles/Project.dir/FileTree.cpp.obj: ../FileItem.h
 CMakeFiles/Project.dir/FileTree.cpp.obj: ../FileNode.h

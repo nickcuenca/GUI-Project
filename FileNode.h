@@ -9,7 +9,7 @@
 #include "FileItem.h"
 #include "Image.h"
 #include "GUI_components.h"
-
+#include "Background.h"
 //This is the Node for your File Tree. It will contain a FileItem as the data,
 //and Node* vector to hold the nodes children (you can also use a map or linked list if you choose).
 class FileNode : public GUI_components {
@@ -30,11 +30,11 @@ class FileNode : public GUI_components {
     //this is called in the draw function to reposition the children so they
     //are indented and below the parent
     void reposition() const;
-    sf::RectangleShape *img;
+    Background *background;
 public:
     // this is so I can use the iterator for the children map publicly
     typedef typename std::map<std::string, FileNode*>::iterator iterator;
-    FileNode(std::string text, int x, int y, int length, int width);
+    FileNode(std::string text, int x, int y, int length, int width, Background *background);
 
     //this draws the node. This is a recursive function to draw all the children nodes as well
     // this will only draw the node's children when it is in the proper state

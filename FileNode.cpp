@@ -4,8 +4,9 @@
 
 #include "FileNode.h"
 
-FileNode::FileNode(std::string text, int x, int y, int length, int width) {
-    data = new FileItem(Image::image::FILE, text, x, y, length, width);
+FileNode::FileNode(std::string text, int x, int y, int length, int width, Background *background) {
+    data = new FileItem(Image::image::FILE, text, x, y, length, width, background);
+    this->background = background;
 }
 bool FileNode::isLeaf() const {
     return children.empty();
@@ -36,7 +37,7 @@ vector<FileNode *> FileNode::getChildren() {
 }
 
 void FileNode::addChild(std::string string1) {
-    children.push_back(new FileNode(string1, data->getX() + 50, data->getY() + (children.size() + 1) * data->getLength(), data->getLength() , data->getWidth()));
+    children.push_back(new FileNode(string1, data->getX() + 50, data->getY() + (children.size() + 1) * data->getLength(), data->getLength() , data->getWidth(), this->background));
     data->setIcon(Image::image::FOLDER);
 }
 

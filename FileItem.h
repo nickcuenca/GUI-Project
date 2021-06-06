@@ -8,15 +8,14 @@
 #include "Image.h"
 #include "Item.h"
 #include "MouseEvents.h"
-
+#include "Background.h"
 //This class is similar to your Item class. In addition to the normal background and text,
 //the FileItem class will also have an icon. This icon indicates whether the FileItem is a directory or a file.
 class FileItem : public GUI_components, public Item {
 public:
     //Constructors
     FileItem();
-    FileItem(Image::image icon, string text, int x, int y, int length, int width);
-    FileItem(const FileItem& copy);
+    FileItem(Image::image icon, string text, int x, int y, int length, int width, Background *background);
 //GUIComponent pure virtual functions, refer to the TextInput Project for Info
     void draw(sf::RenderTarget& window, sf::RenderStates states) const;
     //I use this function to highlight the item when clicked, and unhighlight when something
@@ -29,7 +28,7 @@ public:
     std::string getString() const;
     Image::image getIcon() const;
     void setY(int y);
-    static std::string background;
+    Background *background;
 private:
     //this is the folder or file icon
     Image::image icon_img;

@@ -9,18 +9,15 @@
 
 class Background : public sf::Drawable {
 private:
-    sf::Texture picOfLayout, backgroundTexture, enterButtonTexture, bananaTexture;
-    sf::Sprite sprite, banana;
+    sf::Texture backgroundTexture, rageComics;
+    sf::Sprite sprite, sprite2;
     sf::Font globalFont;
-    sf::Text commandCenter;
-    sf::RectangleShape portrait, enterButton;
+    sf::Text commandCenter, topCaption, botCaption, memeGenerator;
     sf::SoundBuffer buffer;
     sf::Sound song;
-
+    sf::Texture texture;
     sf::RectangleShape commandCenterRectangle;
-    sf::RectangleShape *memeRectangle;
-public:
-    sf::RectangleShape *getMemeRectangle();
+    sf::RectangleShape memeRectangle;
 
 public:
     Background();
@@ -32,6 +29,11 @@ public:
     //Postcondition: A Song is now setup.
     void setRec();
     void setCC();
+    void setRotationRectangle(float angle);
+    void setMemeRectangle(std::string imgName);
+
+    void eraseMeme();
+    sf::RectangleShape *getMemeRectangle();
 };
 
 

@@ -60,7 +60,11 @@ void Letter::setY(int y) {
     toDraw.setPosition(x, y);
 }
 
-void Letter::setColor(const sf::Color &color) {
+void Letter::setColor(const sf::Color &color, int opacity) {
     this->color = color;
-    toDraw.setFillColor(color);
+    toDraw.setFillColor(sf::Color(color.r,color.g, color.b, 255 * opacity/100.0));
 }
+
+char Letter::getCharacter(){
+    return character;
+};

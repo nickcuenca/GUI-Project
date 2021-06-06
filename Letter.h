@@ -11,7 +11,7 @@ private:
 
     sf::Color color;
 public:
-    void setColor(const sf::Color &color);
+    void setColor(const sf::Color &color, int opacity);
 
 private:
     char character;
@@ -28,6 +28,7 @@ public:
     void setY(int y);
     Letter (const Letter& letter);
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const; //This function is to draw your text
+    char getCharacter();
 };
 
 

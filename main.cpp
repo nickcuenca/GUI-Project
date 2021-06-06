@@ -24,8 +24,8 @@ int main() {
 
     sf::RectangleShape rectangleShape;
     rectangleShape.setTexture(texture);
-    rectangleShape.setSize(sf::Vector2f{500, 600});
-    rectangleShape.setPosition(200, 200);
+    rectangleShape.setSize(sf::Vector2f{500, 400});
+    rectangleShape.setPosition(600, 200);
 
     std::vector<std::string> names = {"New meme", "Open meme", "Save meme", "Close meme"};
     std::vector<std::string> names2 = {"Red", "Black", "Blue", "Green"};
@@ -66,9 +66,9 @@ int main() {
 
         
         window.clear();
+        window.draw(memeGenerator);
+//        window.draw(rectangleShape);
 
-//        window.draw(memeGenerator);
-        window.draw(rectangleShape);
 
         window.display();
     }

@@ -64,9 +64,8 @@ void FileTree::update() {
     cout << " " << endl;
 }
 
-FileTree::FileTree(FileNode *root, sf::RectangleShape *img) {
+FileTree::FileTree(FileNode *root) {
     this->root = root;
-    this->img = img;
 }
 
 ////PUBLICs

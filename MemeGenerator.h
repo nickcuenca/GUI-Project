@@ -31,10 +31,6 @@ public:
     //else is clicked
     void addEventHandler(sf::RenderWindow& window, sf::Event event);
     void update();
-
-
-
-
 };
 
 

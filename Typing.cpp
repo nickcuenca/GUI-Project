@@ -41,11 +41,12 @@ void Typing::addEventHandler(sf::RenderWindow &window, sf::Event event) {
                     }
                 }
             }
-        } else if (event.text.unicode == 0x000008 && characterContainer.size() != 0) {
+        } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::BackSpace) && characterContainer.size() != 0 ){
             characterContainer.pop_back();
             cursor->moveLeft();
             Snapshot *curr = new Snapshot(characterContainer, cursor->getX(), cursor->getY());
             history->push(curr);
+
         } else if (event.type == sf::Event::TextEntered && event.text.unicode != 0x000008 && cursor->getX() < limit) {
             characterContainer.push_back(
                     new Letter(static_cast<char>(event.text.unicode), cursor->getX(), cursor->getY()));
@@ -66,11 +67,6 @@ void Typing::addEventHandler(sf::RenderWindow &window, sf::Event event) {
                                    textBox1->getWidth());
         }
     }
-
-
-
-
-
 }
 
 

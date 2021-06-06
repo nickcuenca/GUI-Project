@@ -12,7 +12,6 @@ class FileTree : public GUI_components{
 private:
     //the root node of the tree
     FileNode* root;
-    sf::RectangleShape *img;
 
     //finds the parent and add the item to the parent.
     // If the parent isn't found, a new parent is created
@@ -22,10 +21,11 @@ private:
 
     //traverses the tree ad adds the evenhandlers for each of the nodes
     void traverse(FileNode* &root, sf::RenderWindow& window, sf::Event event);
+
 public:
     //constructors
     FileTree();
-    FileTree(FileNode* root, sf::RectangleShape *img);
+    FileTree(FileNode* root);
 
 
     //this is the public version of push
